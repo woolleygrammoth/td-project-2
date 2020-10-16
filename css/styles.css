@@ -247,6 +247,22 @@ hr {
 
 @media (min-width: 1024px) {
 
+    .page-title {
+        float: left;
+    }
+
+    .main-nav ul {
+        float: right;
+    }
+
+    .main-nav ul li {
+        float: left;
+    }
+
+    h1 {
+        padding-top: 15px;
+    }
+
     .intro {
         padding-top: 10%;
     }
