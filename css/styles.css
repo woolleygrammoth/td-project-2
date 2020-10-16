@@ -33,6 +33,10 @@ h1 {
     padding: 0.6em;
 }
 
+a {
+    text-decoration: none;
+}
+
 .main-nav ul, 
 .contact-div ul {
     padding-left: 0;
@@ -203,6 +207,7 @@ hr {
     .intro {
         float: left;
         width: 60%;
+        padding-top: 5%;
     }
 
     .profile-image {
@@ -215,18 +220,22 @@ hr {
     .portfolio-item {
         float: left;
         width: 50%;
-        margin: 0;
-    }
-
-    .portfolio-item * {
-        margin: 3px;
-        padding: ;
     }
 
     .item-description {
-        padding: 1em 2em 3em;
+        padding: 0.5em 0 2.5em;
+        width: 70%;
+        margin: auto;
     }
 
+    section {
+        padding-bottom: 1em;
+    }
+
+    .invitation {
+        width: 60%;
+        margin: auto;
+    }
 
 }    
 
@@ -235,6 +244,24 @@ hr {
 
 @media (min-width: 1024px) {
 
+    .intro {
+        padding-top: 10%;
+    }
+
+    section {
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .portfolio-item {
+        float: left;
+        width: 33%
+    }
+
+    .invitation {
+        width: 40%;
+        margin: auto;
+    }
 
 
 }
